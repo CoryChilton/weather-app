@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  <title>Document</title>
+</head>
+<body>
+  <form>
+    <label for="location">Location: </label>
+    <input type="text" id="location" name="location" placeholder="London" value="london" required>
+    <button>Submit</button>
+  </form>
+  <div id="content">
+    <h1 id="location-name"></h1>
+    <div id="current">
+      <h2>Current Weather</h2>
+      <h3 id="current-condition"></h3>
+      <div>
+        <p>Current Temp:</p>
+        <p id="current-temp"></p>
+      </div>
+      <div>
+        <p>Current Wind:</p>
+        <p id="current-wind"></p>
+      </div>
+    </div>
+    <div id="forecast">
+      <h2>Forecast</h2>
+      <div id="forecast-content">
+        
+      </div>
+    </div>
+  </div>
+  <button id="unit-switch-btn">Metric</button>
+</body>
+</html>
